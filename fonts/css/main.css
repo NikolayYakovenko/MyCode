@@ -1,0 +1,29 @@
+	/* Подключаем таблицу стилей со шрифтами*/
+@import url(../css/fonts.css) all;
+
+body {
+	background-color: #eaddaf;
+}
+
+.fonts {
+	margin: 20px 0 0 100px;
+	width: 400px;
+	height: auto;
+	border-radius: 5px;
+	text-align: center;
+}
+
+.fonts h1 {
+	font-family: 'blackjackregular';
+	color: #333;
+	border-bottom: 1px solid #333;
+}
+
+p {
+	padding: 15px;
+	font-size: 1.5em;
+	background-color: #333;
+	font-family: 'Poiret One';
+	color: #fc8c14;
+	text-shadow: 0 1px 1px #878787;
+}
