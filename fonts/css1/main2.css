@@ -1,0 +1,26 @@
+/* Шрифт загружается из Google Web Fonts */
+@import url('http://fonts.googleapis.com/css?family=Poiret+One');
+
+	/* Шрифт для IE 5.0-8.0 */
+@font-face {
+	font-family: 'blackjackregular';
+	src: url(../font/black_jack-webfont.eot);
+}
+	
+	/* Шрифт для iOS) */
+@font-face {
+	font-family: 'blackjackregular';
+	src: url(../font/black_jack-webfont.svg#blackjackregular);
+}
+
+	/* Шрифт для остальных броузеров */
+@font-face {
+	font-family: 'blackjackregular';
+	src: url(../font/black_jack-webfont.ttf);
+}
+
+body {
+	font-family: 'blackjackregular';
+	/*font-family: 'Poiret One';*/
+	background-color: #eaddaf;
+}
