@@ -1,0 +1,299 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<!-- <base target="_blank"/> Открывать страницы в новом окне -->
+	<link rel="stylesheet" href="css/main.css">
+	<script type="text/javascript" src="js/jQuery.js"></script>
+	<script type="text/javascript" src="js/carousel.js"></script>
+	<script type="text/javascript" src="js/jcarousellite.js"></script>
+	<script type="text/javascript" src="js/mousewheel.js"></script>
+	<script type="text/javascript" src="js/tiny.js"></script>
+	<script type="text/javascript">
+		jQuery(document).ready(function(){
+			jQuery('#slider-code').tinycarousel({ 
+				pager: true,
+				interval: true,
+				intervaltime: 3000,
+				duration: 1000
+			});
+		});
+	</script>
+	<meta charset="UTF-8">
+	<title>You Bike</title>
+</head>
+<body>
+	<div id="wrapper">
+		<header id="top">
+			<nav class="top-menu">
+				<ul>
+					<li><a href="#">Meu YouBike</a></li>
+					<li><a href="#">Vender</a></li>
+					<li><a href="#">Forum</a></li>
+					<li><a href="#">Contato</a></li>
+					<li><a href="#">Ajuda</a></li>
+				</ul>
+				<div class="enter-on-site"> 
+					<span class="minhas">Minhas Ofertas</span>
+					<span class="ola">Ola! <a href="">Entrar</a> ou <a href="">Cadastre-se</a></span>
+					<form action="#" method="GET" class="enter">
+						<input type="text" placeholder="e-mail" name="name">
+						<input type="submit" name="sign" class="button" value="Entrar">
+						<input type="password" name="name" placeholder="password">
+						<input type="submit" name="sign" class="button" value="Cadastre-se">
+					</form>
+				</div>
+			</nav>
+			<div class="logo">
+				<a href="#">
+					<img src="img/logo.png" alt="logo">
+				</a>
+			</div>
+			<form action="#" method="GET" id="search-form">
+				<input type="search" name="search" placeholder="Buscar">
+				<!-- <input type="submit" name="button1" value="Todo site"> -->
+				<ul class="block">
+						<li>
+							<a href="#">Todo site
+								<span class="down-arrow">&#9013;</span>
+							</a>
+						</li>
+						<ul class="bot-prod">
+							<li>
+								<a href="#">Product1</a>
+							</li>
+							<li>
+								<a href="#">Product2</a>
+							</li>
+							<li>
+								<a href="#">Product3</a>
+							</li>
+							<li>
+								<a href="#">Product4</a>
+							</li>
+							<li>
+								<a href="#">Product5</a>
+							</li>
+						</ul>
+				</ul>
+				<input type="submit" name="button2" value="Buscar">
+			</form>
+			
+			<div class="social">
+				<span>Entre em contato conosco!</span>
+				<a href="#"><i style="background-position: 0 0"></i></a>
+				<a href="https://uk-ua.facebook.com/"><i style="background-position: -16px 0"></i></a>
+				<a href="https://twitter.com/"><i style="background-position: -30px 0"></i></a>
+			</div>
+		</header>
+		<aside class="left-menu">
+				<nav>
+					<a href="#">Compre</a>
+					<ul>
+						<li>
+							<a href="#">
+								<i style="background-position: 0 0"></i>Bicicletas<i class="arrow"></i>
+							</a>
+						</li>
+						<li>
+							<a href="#">
+								<i style="background-position: -29px 0"></i>Quadros<i class="arrow"></i>
+							</a>
+						</li>
+						<li>
+							<a href="#">
+								<i style="background-position: -56px 0"></i>Partes<i class="arrow"></i>
+							</a>
+						</li>
+						<li>
+							<a href="#">
+								<i style="background-position: -84px 0"></i>Acessórios<i class="arrow"></i>
+							</a>
+						</li>
+						<li>
+							<a href="#">
+								<i style="background-position: -112px 0"></i>Vestuário<i class="arrow"></i>
+							</a>
+						</li>
+						<li>
+							<a href="#">
+								<i style="background-position: -140px 0"></i>Corrida<i class="arrow"></i>
+							</a>
+						</li>
+						<li>
+							<a href="#">
+								<i style="background-position: -168px 0"></i>Natação<i class="arrow"></i>
+							</a>
+						</li>
+					</ul>
+				</nav>
+				<div class="advertising">
+					<div class="facebook">
+						<img src="img/facebook.png" alt="facebook">
+						facebook
+					</div>
+					<div class="bike">
+						<a href="">
+							<img src="img/man-2.jpg" alt="man">
+							<span>THE EVOLUTION OF CONTROL</span>
+						</a>
+					</div>
+				</div>
+		</aside>
+		<div id="slider-code">
+			<div class="viewport">
+				<ul class="overview">
+					<li><img src="img/man.jpg" alt="man"></li>
+					<li><img src="img/man.jpg" alt="man"></li>
+					<li><img src="img/man.jpg" alt="man"></li>
+				</ul>
+			</div>
+			<ul class="pager">
+				<li><a rel="0" class="pagenum" href="#"></a></li>
+				<li><a rel="1" class="pagenum" href="#"></a></li>
+				<li><a rel="2" class="pagenum" href="#"></a></li>
+			</ul>
+		</div>
+		<div id="content">
+			<div id="top-products" class="box-products">
+				<button class="prev"></button>
+				<div class="gallery-top">
+					<h2>DESTAQUES</h2>
+					<ul>
+						<li>
+							<a href="#" class="product-photo">
+								<img src="img/bicycle.png">
+							</a>
+
+							<div class="product-name">
+								<a href="#">Vintage Pinarello Pursuit Low-pro Track</a>
+							</div>
+
+							<div class="product-price">$1,855.00</div>
+
+							<div class="buy-probuct">
+								<form action="#" method="GET">
+									<button type="submit" name="buy">comprar</button>
+								</form>
+							</div>
+						</li>
+						<li>
+							<a href="#"><a href="#" class="product-photo">
+								<img src="img/bicycle.png">
+							</a>
+							<div class="product-name">
+								<a href="#">Vintage Pinarello Pursuit Low-pro Track</a>
+							</div>
+							<div class="product-price">$1,855.00</div>
+							<div class="buy-probuct">
+								<form action="" method="">
+									<button type="submit" name="buy">comprar</button>
+								</form>
+							</div>
+						</li>
+						<li>
+									<a href="#" class="product-photo">
+										<img src="img/bicycle.png">
+									</a>
+									<div class="product-name">
+										<a href="#">Vintage Pinarello Pursuit Low-pro Track</a>
+									</div>
+									<div class="product-price">$1,855.00</div> <!-- сделать спаном или р -->
+									<div class="buy-probuct">
+										<form action="" method="">
+											<button type="submit" name="buy">comprar</button>
+										</form> <!-- Сделать кнопку просто ссылкой -->
+									</div>
+						</li>
+						<li>
+							<a href="#" class="product-photo">
+								<img src="img/bicycle.png">
+							</a>
+							<div class="product-name">
+								<a href="#">Vintage Pinarello Pursuit Low-pro Track</a>
+							</div>
+							<div class="product-price">$1,855.00</div>
+							<div class="buy-probuct">
+								<form action="" method="">
+									<button type="submit" name="buy">comprar</button>
+								</form>
+							</div>
+						</li>
+					</ul>
+				</div> <!-- end gallery -->
+				<button class="next"></button>
+			</div> <!-- end top-products -->
+			<div id="bottom-products" class="box-products">
+				<button class="prev1"></button>
+				<div class="gallery-bottom">
+					<h2>MAIS VISITADOS</h2>
+					<ul >
+						<li>
+							<a href="#" class="product-photo">
+								<img src="img/bicycle.png">
+							</a>
+
+							<div class="product-name">
+								<a href="#">Vintage Pinarello Pursuit Low-pro Track</a>
+							</div>
+
+							<div class="product-price">$1,855.00</div>
+
+							<div class="buy-probuct">
+								<form action="#" method="GET">
+									<button type="submit" name="buy">comprar</button>
+								</form>
+							</div>
+						</li>
+						<li>
+							<a href="#"><a href="#" class="product-photo">
+								<img src="img/bicycle.png">
+							</a>
+							<div class="product-name">
+								<a href="#">Vintage Pinarello Pursuit Low-pro Track</a>
+							</div>
+							<div class="product-price">$1,855.00</div>
+							<div class="buy-probuct">
+								<form action="" method="">
+									<button type="submit" name="buy">comprar</button>
+								</form>
+							</div>
+						</li>
+						<li>
+							<a href="#" class="product-photo">
+								<img src="img/bicycle.png">
+							</a>
+							<div class="product-name">
+								<a href="#">Vintage Pinarello Pursuit Low-pro Track</a>
+							</div>
+							<div class="product-price">$1,855.00</div>
+							<div class="buy-probuct">
+								<form action="" method="">
+									<button type="submit" name="buy">comprar</button>
+								</form>
+							</div>
+						</li>
+						<li>
+							<a href="#" class="product-photo">
+								<img src="img/bicycle.png">
+							</a>
+							<div class="product-name">
+								<a href="#">Vintage Pinarello Pursuit Low-pro Track</a>
+							</div>
+							<div class="product-price">$1,855.00</div>
+							<div class="buy-probuct">
+								<form action="" method="">
+									<button type="submit" name="buy">comprar</button>
+								</form>
+							</div>
+						</li>
+					</ul>
+				</div> <!-- end gallery -->
+				<button class="next1"></button>
+			</div> <!-- end bottom-products -->
+		</div> <!-- end content -->
+		<footer>
+			<div class="foot"></div> <!-- Проблемы с врапером -->
+		</footer>
+	</div> <!-- end wrapper -->
+</body>
+</html>

@@ -1,0 +1,58 @@
+
+#slider-code {
+	height: 290px;
+	width: 976px;
+	overflow:hidden;
+	margin-left: 219px;
+}
+
+#slider-code .viewport {
+	float: left;
+	width: 975px;
+	height: 266px;
+	overflow: hidden;
+	position: relative;
+}
+
+#slider-code .disable {
+	visibility: hidden;
+}
+
+#slider-code .overview {
+	list-style: none;
+	padding: 0;
+	margin: 0; 
+	position: absolute;
+	left: 0;
+	top: 0;
+}
+
+#slider-code .overview li{
+	float: left;
+	padding: 1px;
+	height: 276px;
+	width: 975px;
+}
+
+#slider-code .pager {
+	overflow: hidden;
+	list-style: none;
+	clear: both;
+	margin-left: 472px;
+}
+
+#slider-code .pager li {
+	float: left;
+}
+
+#slider-code .pager a {
+	width: 8px;
+	height: 9px;
+	display: block;
+	margin: 10px 6px 0 0;
+	background: url(../img/check.png) no-repeat;
+}
+
+#slider-code .pager .active {
+	background-position: -8px 0;
+}

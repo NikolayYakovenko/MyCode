@@ -1,0 +1,530 @@
+/* Подключаем reset.css */
+@import url(../css/reset.css);
+@import url(../css/slider.css);
+@font-face {
+	font-family: "Wagner Zip-Change";
+	src: url(../font/Wagner_Zip-Change.eot?),
+		url(../font/Wagner_Zip-Change.woff),
+		url(../font/Wagner_Zip-Change.ttf),
+		url(../font/Wagner_Zip-Change.svg#WagnerZip-Change);
+	font-weight:normal;
+	font-style:normal;
+}
+
+a {
+	text-decoration: none;
+	outline: none;
+}
+
+button {
+	outline: none;
+}
+
+body {
+	font-family: Tahoma, sans-serif;
+	background: url(../img/bcg-body.png) repeat;
+}
+
+#wrapper {
+	margin: 0 auto;
+	width: 1215px;
+	height: auto;
+}
+	/* --- HEADER --- Top Menu--- */
+header#top {
+	height: 167px;
+}
+
+.top-menu {
+	height: 36px;
+	line-height: 36px;
+	background: #07508e;
+	font-size: 14px;
+	padding-left: 463px;
+}
+
+.top-menu li {
+	float: left;
+}
+
+.top-menu li a {
+	padding: 0 12px;
+	display: block;
+	color: #60b5ed;
+}
+
+.top-menu li a:hover {
+	background-color: #4eabda;
+	color: #fff;
+}
+
+	/* --- Вход на сайт --- */
+span.minhas {
+	border-left: 1px solid #56a2dc;
+	padding: 3px 17px 4px 51px;
+	color: #fff;
+	background: url(..//img/flag.png) no-repeat center left 20px;
+}
+
+span.ola {
+	display: inline-block;
+	height: 36px;
+	color: #fff;
+	background: #51b1dc; /* Old browsers */
+	background: -moz-linear-gradient(top,  #51b1dc 0%, #2e7ac4 100%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#51b1dc), color-stop(100%,#2e7ac4)); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(top,  #51b1dc 0%,#2e7ac4 100%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(top,  #51b1dc 0%,#2e7ac4 100%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(top,  #51b1dc 0%,#2e7ac4 100%); /* IE10+ */
+	background: linear-gradient(to bottom,  #51b1dc 0%,#2e7ac4 100%); /* W3C */
+	border: 1px solid #65a8e4;
+	border-top: none;
+	border-bottom: none;
+	padding: 0 14px;
+}
+
+span.ola a {
+	color: #fff;
+	text-decoration: underline;
+}
+
+/* --- appearing e-mail block*/
+form.enter {
+	width: 284px;
+	height: 75px;
+	border: none;
+	display: block;
+	position: relative;
+	z-index: 1;
+	margin-left: 463px;
+	display: none;
+	background: #2e7ac4; /* Old browsers */
+	background: -moz-linear-gradient(top,  #2e7ac4 0%, #51b1dc 100%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#2e7ac4), color-stop(100%,#51b1dc)); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(top,  #2e7ac4 0%,#51b1dc 100%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(top,  #2e7ac4 0%,#51b1dc 100%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(top,  #2e7ac4 0%,#51b1dc 100%); /* IE10+ */
+	background: linear-gradient(to bottom,  #2e7ac4 0%,#51b1dc 100%); /* W3C */
+	padding: 2px 0 0 5px;
+}
+
+.enter-on-site:hover form.enter {
+	display: block;
+}
+
+.button {
+	width: 90px;
+	border: none;
+	outline: none;
+	height: 22px;
+	background: #f8f8f8; /* Old browsers */
+	background: -moz-linear-gradient(top,  #f8f8f8 0%, #ebebeb 100%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#f8f8f8), color-stop(100%,#ebebeb)); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(top,  #f8f8f8 0%,#ebebeb 100%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(top,  #f8f8f8 0%,#ebebeb 100%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(top,  #f8f8f8 0%,#ebebeb 100%); /* IE10+ */
+	background: linear-gradient(to bottom,  #f8f8f8 0%,#ebebeb 100%); /* W3C */
+	border: 1px solid #d4d4d4;
+	border-radius: 4px;
+	color: #666;
+}
+input.button:active {
+	background: #e2e2e2;
+}
+
+input[name="name"] {
+	border: none;
+	border-radius: 3px;
+	width: 160px;
+	height: 22px;
+	padding: 0 5px 0;
+	margin: 0 5px 0;
+	line-height: 20px;
+	box-shadow: 0 1px 2px #888 inset;
+}
+	/* --- Logo ---*/
+
+.logo a img {
+	margin: 14px 0 0 28px;
+	float: left;
+}
+
+	/* --- Форма поиска --- */ 
+#search-form {
+	width: 687px;
+	height: 41px;
+	background-color: #fff;
+	border-radius: 5px;
+	border: 1px solid #e1e1e1;
+	border-bottom: 1px solid #fff;
+	margin: 28px 0 0 38px;
+	box-shadow: 0px 3px 5px rgba(0, 0, 0, 0.2) inset;
+	float: left;
+}
+
+input[name="search"] {
+	color: #808080;
+	margin: 9px 23px 0 23px;
+	background: #fff;
+	font-size: 14px;
+	width: 400px;
+	height: 25px;
+	line-height: 25px;
+	border: none;
+	outline: none;
+	float: left;
+}
+
+input[name="button2"] {
+	width: 84px;
+	height: 34px;
+	outline: none;
+	/*background: url(../img/sprite.png) no-repeat;*/
+	border: 1px solid #4299d2;
+	border-top: 1px solid #73d1eb;
+	background: #52b2dd; /* Old browsers */
+	background: -moz-linear-gradient(top,  #52b2dd 0%, #2e7ac4 100%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#52b2dd), color-stop(100%,#2e7ac4)); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(top,  #52b2dd 0%,#2e7ac4 100%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(top,  #52b2dd 0%,#2e7ac4 100%); /* Opera 11.10+ */
+	background: linear-gradient(to bottom,  #52b2dd 0%,#2e7ac4 100%); /* W3C */
+	border-radius: 4px;
+	box-shadow: 0 1px 2px #65a8e4;
+	margin: 4px 0 0 5px;
+	color: #fff;
+	font-size: 16px;
+}
+
+input[name="button2"]:active {
+	background: #4299d2;
+}
+
+.block {
+	width: 146px;
+	float: left;
+	margin-top: 4px;
+	position: relative;
+	z-index: 1;
+}
+.down-arrow {
+	font-size: 20px;
+	color: #666;
+	float: right;
+	margin: -3px 6px 0 0;
+}
+
+.block>li {
+	height: 32px;
+	border: none;
+	outline: none;
+	background: #f8f8f8; /* Old browsers */
+	background: -moz-linear-gradient(top,  #f8f8f8 0%, #ebebeb 100%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#f8f8f8), color-stop(100%,#ebebeb)); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(top,  #f8f8f8 0%,#ebebeb 100%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(top,  #f8f8f8 0%,#ebebeb 100%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(top,  #f8f8f8 0%,#ebebeb 100%); /* IE10+ */
+	background: linear-gradient(to bottom,  #f8f8f8 0%,#ebebeb 100%); /* W3C */
+	border: 1px solid #d4d4d4;
+	border-top: 1px solid #fbfbfb;
+	border-radius: 4px;
+	box-shadow: 0 1px 3px rgba(0, 0, 0, 0.3);
+	color: #666666;
+	font-size: 16px;
+	text-align: center;
+	line-height: 32px;
+}
+.block>li a {
+	height: 34px;
+	line-height: 34px;
+	font-size: 14px;
+	color: #666;
+	display: block;
+	text-align: left;
+	margin-left: 13px;
+
+}
+.bot-prod {
+	display: none;
+}
+
+.bot-prod li {
+	background-color: #eee;
+	text-align: center;
+	border: 1px solid #d1d1d1;
+	position: relative;
+	display: block;
+	text-shadow: 0 1px 1px #fff;
+	border-top: none;
+	font-size: 14px;
+}
+
+.bot-prod li a {
+	display: block;
+	color: #666;
+	height: 34px;
+	width: 146px;
+	text-align: center;
+	line-height: 34px;
+}
+
+.block .bot-prod {
+	display: none;
+}
+
+.block:hover .bot-prod {
+	display: block;
+}
+
+.bot-prod li:hover {
+	background-color: #d1d1d1;
+}
+	/* --- почта facebook twiter*/
+.social {
+	display: block;
+	float: right;
+	height: 16px;
+	width: auto;
+	position: relative;
+	margin: 45px 30px 0 0; 
+}
+
+.social span {
+	color: #0358c2;
+	font-size: 12px;
+	float: left;
+}
+
+.social a>i {
+	width: 16px;
+	height: 14px;
+	float: left;
+	background: url(../img/social-icons.png) no-repeat;
+	margin-left: 8px;
+}
+
+	/* --- CONTENT --- */
+	/* --- ASIDE --- */
+.left-menu {
+	width: 186px;
+	float: left;
+	height: auto;
+	margin: 0 0px 0 19px;
+}
+
+.left-menu nav li {
+	height: 24px;
+	padding-bottom: 2px;
+	border-style: solid;
+	border-width: 0px 0px 7px;
+	-moz-border-image: url(../img/border-image50.png) 0 0 6 round;
+	-webkit-border-image: url(../img/border-image50.png) 0 0 6 round;
+	-o-border-image: url(../img/border-image50.png) 0 0 6 round;
+	border-image: url(../img/border-image50.png) 0 0 6 fill round;
+}
+
+.left-menu nav>a {
+	color: #fefefe;
+	font-size: 16px;
+	display: block;
+	height: 32px;
+	line-height: 32px;
+	border: 1px solid #4299d2;
+	border-top: 1px solid #87d9ee;
+	border-radius: 5px;
+	margin-bottom: 5px;
+	padding-left: 8px;
+	background: #52b2dd; /* Old browsers */
+	background: -moz-linear-gradient(top,  #60bfe3 0%, #3692cf 100%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#60bfe3), color-stop(100%,#3692cf)); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(top,  #60bfe3 0%,#3692cf 100%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(top,  #60bfe3 0%,#3692cf 100%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(top,  #60bfe3 0%,#3692cf 100%); /* IE10+ */
+	background: linear-gradient(to bottom,  #60bfe3 0%,#3692cf 100%); /* W3C */
+}
+
+.left-menu nav ul a {
+	display: block;	
+	width: 170px;
+	color: #333;
+	font-size: 14px;
+	padding-left: 14px;
+	line-height: 24px;
+}
+
+.left-menu nav ul li a>i {
+	background: url(../img/icon-left-menu.png);
+	width: 28px;
+	height: 21px;
+	float: left;
+	margin: 2px 13px 0 -8px;
+}
+
+.left-menu nav ul li a>i.arrow {
+	background: url(../img/left-menu-arrow.png);
+	width: 6px;
+	height: 10px;
+	float: right;
+	margin: 5px 11px 0 0;
+}
+
+.left-menu nav ul a:hover {
+	text-decoration: underline;
+}
+	/* --- Группа в facebook--- */
+.facebook {
+	width: 186px;
+	height: 150px;
+	margin: 81px 0 78px 0;
+	
+}
+	/* --- Чувак на велике --- */
+.bike a {
+	margin-top: 10px;
+}
+.bike span {
+	display: block;
+	margin: -60px 0 0 11px;
+	position: relative;
+	color: #fff;
+	font-family: "Wagner Zip-Change";
+	font-size: 22px;
+	text-shadow: 0 0 6px rgba(0, 0, 0, 0.8);
+}
+	/* --- Центральный банер --- */
+
+	/* --- Product content --- */
+	/*--- Кнопки управления каруселью ---*/
+button.prev, button.prev1,
+button.next,button.next1 {
+	width: 10px;
+	height: 14px;
+	border: none;
+	margin-top: 110px;
+}
+
+button.prev, button.prev1 {
+	background: url(../img/arrow-left.png) no-repeat;
+	float: left;
+	margin-left: 15px;
+}
+button.next, button.next1{
+	background: url(../img/arrow-right.png) no-repeat;
+	float: right;
+	margin-right: 13px;
+}
+
+.gallery-top, .gallery-bottom {
+	float: left;
+	visibility: visible;
+	overflow: hidden;
+	position: relative;
+	margin-left: 28px;
+}
+	/* --- Блок с товаром --- */
+.box-products {
+	font-size: 12px;
+	width: 975px;
+	height: 244px;
+	background: #fff;
+	border: 1px solid #d9d9d9;
+	border-radius: 4px;
+	box-shadow: 0 2px 3px #ccc;
+	margin-left: 221px;
+}
+
+.box-products h2 {
+	font-size: 16px;
+	color: #666;
+	width: 473px;
+	margin: 0 auto;
+	text-align: center;
+	padding: 13px 0 10px 0;
+	border-style: solid;
+	border-width: 0px 0px 3px;
+	-moz-border-image: url(../img/border-bos.png) 0 0 6 round;
+	-webkit-border-image: url(../img/border-bos.png) 0 0 6 round;
+	-o-border-image: url(../img/border-bos.png) 0 0 6 round;
+	border-image: url(../img/border-bos.png) 0 0 6 fill round;
+}
+
+#top-products {
+	margin-top: 30px;
+}
+
+.box-products li {
+	width: 160px;
+	height: auto;
+	margin-top: 12px;
+	background: #fff;
+	float: left;
+	border-right: 1px solid #ccc;
+	padding: 2px 22px 0 29px
+}
+
+.box-products li:last-child {
+	border-right: none;
+}
+
+	/* --- Clearfix --- */
+.box-products:after{
+	content: '.';
+	display: block; /* --- потому что additional content is string --- */
+	height: 0;
+	clear: both; /* --- запрещает обтекание содержимого блока с обеих сторон --- */
+	visibility: hidden; /* --- скрвываем контент --- */
+}
+
+.product-name {
+	margin-top: 12px;
+}
+
+.product-name a {
+	font-size: 12px;
+	color: #333;
+	line-height: 14px;
+}
+
+.product-name a:hover {
+	text-decoration: underline;
+}
+
+.product-price {
+	margin-top: 10px;
+	color: #0066cc;
+	font-size: 12px;
+	float: left;
+}
+
+button[name="buy"] {
+	margin: 5px 0 0 38px;
+	outline: none;
+	width: 65px;
+	height: 20px;
+	color: #fefefe;
+	cursor: pointer;
+	font-size: 12px;
+	line-height: 12px;
+	border: 1px solid #4299d2;
+	border-top: 1px solid #87d9ee;
+	border-radius: 3px;
+	background: #52b2dd; /* Old browsers */
+	background: -moz-linear-gradient(top,  #60bfe3 0%, #3692cf 100%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#60bfe3), color-stop(100%,#3692cf)); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(top,  #60bfe3 0%,#3692cf 100%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(top,  #60bfe3 0%,#3692cf 100%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(top,  #60bfe3 0%,#3692cf 100%); /* IE10+ */
+	background: linear-gradient(to bottom,  #60bfe3 0%,#3692cf 100%); /* W3C */
+}
+
+button[name="buy"]:active {
+	background: #4299d2;
+}
+
+#bottom-products {
+	margin-top: 24px;
+}
+.foot {
+	width: inherit;
+	height: 20px;
+	background-color: inherit;
+}
