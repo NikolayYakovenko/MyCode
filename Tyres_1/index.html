@@ -12,7 +12,7 @@
 			<span class="phone-number">(044)123-45-67 (044)567-89-10</span>
 			<div class="authorization">
 				<img src="img/icon-men1.png" alt="icon">
-				<form  method="GET" action="#" class="registration">
+				<form  method="GET" action="POST" class="registration">
 					<input class="input-width" type="text" name="login" placeholder="логин">
 					<input class="input-width" type="password" name="pasword" placeholder="пароль">
 				</form>
@@ -22,15 +22,15 @@
 				<a href="#" class="forgot-password">забыли пароль?</a>
 			</div>
 			<div id="registration-block">
-					<form id="reg-form"action="POST" align="left">
+					<form id="reg-form" action="POST">
 						<div class="input-align">
 							<span>Имя: </span>
-							<input type="name">
+							<input type="text">
 						</div>
 
 						<div class="input-align">
 							<span>Фамилия: </span>
-							<input type="name">
+							<input type="text">
 						</div>
 						
 						<div class="input-align">
@@ -43,8 +43,8 @@
 							<input type="password">
 						</div>
 						<div class="registration-button">
-							<input type="submit" value="Регистрация"></input>
-							<input type="button" value="Отмена" id="hibeBlock"></input>
+							<input type="submit" value="Регистрация">
+							<input type="button" value="Отмена" id="hibeBlock">
 						</div>
 					</form>
 				</div>
@@ -82,9 +82,9 @@
 			<div class="search-box cars-type">
 					<table class="car-parameters">
 						<tr class="search-title">
-							<td align="left">Диски</td>
+							<td>Диски</td>
 							<th colspan="2">Поиск по автомобилю</th>
-							<td align="right">Шины</td>
+							<td>Шины</td>
 						</tr>
 						<tr>
 							<td>Марка авто:</td>
@@ -168,10 +168,10 @@
 			<div class="search-box wheels-type">
 				<table class="wheels-parameters">
 						<tr class="search-title">
-							<th colspan="2" nowrap align="left">поиск дисков</th>
+							<th colspan="2">поиск дисков</th>
 						</tr>
 						<tr>
-							<td nowrap>Диаметр диска:</td>
+							<td>Диаметр диска:</td>
 							<td>
 								<select size="1" class="select-wheels-width">
 									<option value="">14</option>
@@ -228,18 +228,18 @@
 			<div class="search-box tyres-type">
 				<table class="tyre-parameters">
 						<tr class="search-title">
-							<th colspan="2" nowrap align="left">поиск шин</th>
+							<th colspan="2">поиск шин</th>
 						</tr>
 						<tr>
-							<td align="center">Размер:</td>
+							<td>Размер:</td>
 							<td>
 								<select size="1" class="select-tyre-width">
 									<option value="">145</option>
 									<option value="">165</option>
 									<option value="">185</option>
 								</select>
+								<span>/</span>
 							</td>
-							<td>/</td>
 							<td>
 								<select size="1" class="select-tyre-width">
 									<option value="">65</option>
@@ -249,7 +249,7 @@
 							</td>
 						</tr>
 						<tr>
-							<td align="right" class="top-pad">R</td>
+							<td class="radius-letter">R</td>
 							<td>
 								<select size="1" class="select-tyre-width">
 									<option value="">14</option>
@@ -259,7 +259,7 @@
 							</td>
 						</tr>
 						<tr>
-							<td align="center">Сезон:</td>
+							<td>Сезон:</td>
 							<td>
 								<form action="GET">
 									<input type="checkbox">зима<br>

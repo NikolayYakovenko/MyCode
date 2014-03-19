@@ -55,8 +55,8 @@ body {
 }
 
 form.registration {
-	margin: 3px 8px 0 0;
 	display: inline-block;
+	margin: 3px 8px 0 0;
 }
 
 input.input-width {
@@ -66,34 +66,46 @@ input.input-width {
 	border: 1px solid #9ba1a3;
 	color: #97a2a6;
 }
-	/*** Eneter and registration links***/
 
+#hibeBlock {
+	margin-left: 30px;
+}
+.enter-links {
+	color: #fff;
+}
+
+.forgot-password {
+	margin: 0 10px 0 21px;
+	font-size: 12px;
+	text-decoration: underline;
+	color: #bfbfbf;
+}
+
+	/*** Eneter and registration links***/
 #registration-block {
 	position: absolute;
 	display: none;
 	top: 54px;
 	right: 326px;
 	width: 380px;
-	/*border: 1px solid red;*/
 	background-color: #eee;
 	border-radius: 5px;
 	box-shadow: 
-	z-index: 999;
+	z-index: 9999;
 	opacity: 0.98;
 }
 
 #registration-block form {
 	margin: 10px auto;
 	padding: 5px;
-	/*border: 1px solid green;*/
 	width: 330px;
 }
 
 .input-align {
 	height: 35px;
 	margin-top: 3px;
-	/*border: 1px solid blue;*/
 }
+
 .input-align span {
 	float: left;
 	line-height: 35px;
@@ -127,20 +139,6 @@ input.input-width {
 .registration-button input:hover {
 	color: #3f00ff;
 	background-color: #bcd2db;
-}
-
-#hibeBlock {
-	margin-left: 30px;
-}
-.enter-links {
-	color: #fff;
-}
-
-.forgot-password {
-	margin: 0 10px 0 21px;
-	font-size: 12px;
-	text-decoration: underline;
-	color: #bfbfbf;
 }
 
 	/*** Icon in top line ***/
@@ -287,6 +285,13 @@ span.blue-text {
 	font-weight: bold;
 }
 
+.search-title td:nth-child(1) {
+	text-align: left;
+}
+.search-title td:nth-child(3) {
+	text-align: right;
+}
+
 .search-title th {
 	padding: 2px 0 5px 0;
 	font-size: 13px;
@@ -298,6 +303,10 @@ span.blue-text {
 	margin: 5px 15px 8px 0;
 	font-size: 14px;
 	text-decoration: underline;
+	color: #154467;
+	font-size: 14px;
+	font-style: italic;
+	font-weight: bold;
 }
 
 .cars-type a {
@@ -319,6 +328,12 @@ span.blue-text {
 	margin-left: 15px;
 	font-size: 10px;
 }
+
+.wheels-parameters .search-title th {
+	text-align: left;
+	white-space: nowrap;
+}
+
 
 .wheels-parameters td {
 	padding-top: 3px;
@@ -353,13 +368,19 @@ span.blue-text {
 	margin: 0 auto;
 }
 
+.tyre-parameters .search-title th {
+	text-align: left;
+	white-space: nowrap;
+}
+
 .tyre-parameters td {
 	padding-right: 5px;
 	font-size: 10px;
 }
 
-.top-pad {
+.radius-letter {
 	padding-top: 8px;
+	padding-left: 30px;
 }
 
 .tyre-parameters select {
@@ -424,11 +445,17 @@ aside.left {
 	margin-top: 9px;	
 }
 
+.menu-categories ul li a {
+	font-size: 13px;
+	transition: all 0.1s;
+}
+
 .menu-categories ul li>a {
 	color: #465961;
 }
 
 .menu-categories ul li>a:hover {
+	font-size: 14px;
 	font-weight: bold;
 	font-style: italic;
 	text-decoration: underline;
@@ -501,6 +528,8 @@ input.check-brend {
 
 .check-brend + label {
 	margin-left: 10px;
+	font-size: 13px;
+	color: #465961;
 }
 
 .chosse-brand {
