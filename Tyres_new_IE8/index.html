@@ -1,0 +1,422 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<link rel="stylesheet" href="css/reset.css">
+	<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+	<div class="wrapper">
+		<div class="top-line">
+			<span class="phone-number">(044)123-45-67 (044)567-89-10</span>
+			<div class="authorization">
+				<img src="img/icon-men1.png" alt="icon">
+				<form action="" method="POST" class="registration">
+					<input class="input-width" type="text" name="login" placeholder="логин">
+					<input class="input-width" type="password" name="pasword" placeholder="пароль">
+				</form>
+				<a href="#" class="enter-links">вход</a>
+				<span class="enter-links">&#124</span>
+				<a href="#" class="enter-links" id="reg-button" >регистрация</a>
+				<a href="#" class="forgot-password">забыли пароль?</a>
+			</div>
+			<div id="registration-block">
+					<form action="" method="POST" id="reg-form" >
+						<div class="input-align">
+							<span>Имя: </span>
+							<input type="text" name="name" id="name">
+						</div>
+
+						<div class="input-align">
+							<span>Фамилия: </span>
+							<input type="text" id="lastName">
+						</div>
+						
+						<div class="input-align">
+							<span>Электронная почта: </span>
+							<input type="email" id="email">
+						</div>
+						
+						<div class="input-align">
+							<span>Пароль: </span>
+							<input type="password">
+						</div>
+						<div class="registration-button">
+							<input type="submit" value="Регистрация">
+							<input type="button" value="Отмена" id="hibeBlock">
+						</div>
+					</form>
+				</div>
+			<div class="navi">
+				<a href="#" class="icon-top" id="icon-top-home"></a>
+				<a href="#" class="icon-top" id="icon-top-map"></a>
+				<a href="#" class="icon-top" id="icon-top-email"></a>
+			</div>
+		</div>  <!-- end top-line -->
+
+		<div class="header">
+			<div class="baner">
+				<a href="#"><img src="img/baner.jpg" alt="tyres"></a>
+			</div>
+			<div class="top-menu">
+				<ul>
+					<li><a href="">О компании</a></li>
+					<li><a href="">Оплата</a></li>
+					<li><a href="">Доставка</a></li>
+					<li><a href="">Статьи</a></li>
+					<li><a href="">Контакты</a></li>
+				</ul>
+				<div class="shopping-cart">
+					<span class="goods">
+						товаров: <span class="blue-text">0</span>
+					</span>
+					<span>
+						на сумму: <span class="blue-text">0,00 грн.</span>
+					</span>
+				</div>
+			</div>
+		</div class="header">  <!-- end header -->
+
+		<div class="tyre-paremeters clearfix">
+			<div class="search-box cars-type">
+					<table class="car-parameters">
+						<tr class="search-title">
+							<td>Диски</td>
+							<th colspan="2">Поиск по автомобилю</th>
+							<td>Шины</td>
+						</tr>
+						<tr>
+							<td>Марка авто:</td>
+							<td>
+								<select size="1" class="select-brand-width">
+									<option value="">BMW</option>
+									<option value="">Bentley</option>
+									<option value="">OPEL</option>
+								</select>
+							</td>
+							<td>Марка авто:</td>
+							<td>
+								<select size="1" class="select-brand-width">
+									<option value="">BMW</option>
+									<option value="">Bentley</option>
+									<option value="">OPEL</option>
+								
+								</select>
+							</td>
+						</tr>
+						<tr>
+							<td>Модель<br>автомобиля:</td>
+							<td>
+								<select size="1" class="select-brand-width">
+									<option value="">X5</option>
+									<option value="">A6 Quattro</option>
+									<option value="">Kadett</option>
+								
+								</select>
+							</td>
+							<td>Модель<br>автомобиля:</td>
+							<td>
+								<select size="1" class="select-brand-width">
+									<option value="">X5</option>
+									<option value="">A6 Quattro</option>
+									<option value="">Kadett</option>
+								</select>
+							</td>
+						</tr>
+						<tr>
+							<td>Год выпуска<br>автомобиля:</td>
+							<td>
+								<select size="1" class="select-year-width">
+									<option value="">2014</option>
+									<option value="">2008</option>
+									<option value="">1995</option>
+								</select>
+							</td>
+							<td>Год выпуска<br>автомобиля:</td>
+							<td>
+								<select size="1" class="select-year-width">
+									<option value="">2014</option>
+									<option value="">2008</option>
+									<option value="">1995</option>
+								
+								</select>
+							</td>
+						</tr>
+						<tr>
+							<td>Комплектация:</td>
+							<td>
+								<select size="1" class="select-brand-width">
+									<option value="">Elegance</option>
+									<option value="">Ambition</option>
+									<option value="">Highline</option>
+								</select>
+							</td>
+							<td>Комплектация:</td>
+							<td>
+								<select size="1" class="select-brand-width">
+									<option value="">Elegance</option>
+									<option value="">Ambition</option>
+									<option value="">Highline</option>
+								</select>
+							</td>
+						</tr>
+					</table>
+					<a href="#" class="search-link">поиск...</a>				
+			</div> <!-- end cars-type -->
+			
+			<div class="search-box wheels-type">
+				<table class="wheels-parameters">
+						<tr class="search-title">
+							<th colspan="2">поиск дисков</th>
+						</tr>
+						<tr>
+							<td>Диаметр диска:</td>
+							<td>
+								<select size="1" class="select-wheels-width">
+									<option value="">14</option>
+									<option value="">15</option>
+									<option value="">17</option>
+								</select>
+							</td>
+						</tr>
+						<tr>
+							<td>Количество<br>крепежных<br>отверстий</td>
+							<td>
+								<select size="1" class="select-wheels-width-amount">
+									<option value="">4</option>
+									<option value="">5</option>
+									<option value="">6</option>
+								</select>
+							</td>
+						</tr>
+						<tr>
+							<td>Диаметр<br>расположения<br>крепежных<br>отверстий:</td>
+							<td>
+								<select size="1" class="select-wheels-width">
+									<option value="">12</option>
+									<option value="">13</option>
+									<option value="">14</option>
+								</select>
+							</td>
+						</tr>
+				</table>
+
+				<table class="wheels-parameters right-table clearfix">
+					<tr>
+						<td>ДЦО<br>(Диметр<br>центрального<br>отверстия):<br>	
+							<select size="1" class="select-wheels-width">
+								<option value="">12</option>
+								<option value="">13</option>
+								<option value="">14</option>
+							</select>							
+						</td>
+					</tr>
+					<tr>
+						<td rowspan="1">ET<br>(вылет диска):<br>	
+							<select size="1" class="select-wheels-width">
+								<option value="">12</option>
+								<option value="">13</option>
+								<option value="">14</option>
+							</select>
+						</td>
+					</tr>
+				</table>
+				<a href="#" class="search-link">поиск...</a>
+			</div> <!-- end wheels-type -->
+
+			<div class="search-box tyres-type">
+				<table class="tyre-parameters">
+						<tr class="search-title">
+							<th colspan="2">поиск шин</th>
+						</tr>
+						<tr>
+							<td>Размер:</td>
+							<td>
+								<select size="1" class="select-tyre-width">
+									<option value="">145</option>
+									<option value="">165</option>
+									<option value="">185</option>
+								</select>
+								<span>/</span>
+							</td>
+							<td>
+								<select size="1" class="select-tyre-width">
+									<option value="">65</option>
+									<option value="">75</option>
+									<option value="">85</option>
+								</select>
+							</td>
+						</tr>
+						<tr>
+							<td class="radius-letter">R</td>
+							<td>
+								<select size="1" class="select-tyre-width">
+									<option value="">14</option>
+									<option value="">15</option>
+									<option value="">17</option>
+								</select>
+							</td>
+						</tr>
+						<tr>
+							<td>Сезон:</td>
+							<td>
+								<form action="GET">
+									<input type="checkbox">зима<br>
+									<input type="checkbox">лето<br>
+									<input type="checkbox">всесез<br>
+								</form>
+							</td>
+						</tr>
+				</table>
+				<a href="#" class="search-link">поиск...</a>
+			</div>  <!-- end tyres-type -->
+		</div> <!-- end tyre-paremeters -->
+
+		<div class="content clearfix">
+			<div class="left-sidebar">
+				<div class="menu-categories">
+					<h4 class="goods-type catalog">Каталог продукции:</h4>
+
+					<h4 class="goods-type">Шины</h4>
+					<ul>
+						<li><a href="">Наименование1</a></li>
+						<li><a href="">Наименование2</a></li>
+						<li><a href="">Наименование3</a></li>
+						<li><a href="">Наименование4</a></li>
+					</ul>
+
+					<h4 class="goods-type">Диски</h4>
+					<ul>
+						<li><a href="">Наименование1</a></li>
+						<li><a href="">Наименование2</a></li>
+						<li><a href="">Наименование3</a></li>
+						<li><a href="">Наименование4</a></li>
+					</ul>
+
+					<h4 class="goods-type">Болты</h4>
+					<ul>
+						<li><a href="">Наименование1</a></li>
+						<li><a href="">Наименование2</a></li>
+						<li><a href="">Наименование3</a></li>
+						<li><a href="">Наименование4</a></li>
+					</ul>
+				</div>
+			</div> <!-- end left-sidebar -->
+
+			<div class="right-sidebar">
+				<div class="menu-categories">
+					<h4 class="goods-type catalog">Бренды:</h4>
+
+					<form action="GET" class="brands">
+						<h4 class="goods-type">Шины</h4>
+						<input class="check-brend" type="checkbox"><label>Бренд 1</label><br>
+						<input class="check-brend" type="checkbox"><label>Бренд 2</label><br>
+						<input class="check-brend" type="checkbox"><label>Бренд 3</label><br>
+					</form>
+
+					<form action="GET" class="brands">
+						<h4 class="goods-type">Диски</h4>
+						<input class="check-brend" type="checkbox"><label>Бренд 1</label><br>
+						<input class="check-brend" type="checkbox"><label>Бренд 2</label><br>
+						<input class="check-brend" type="checkbox"><label>Бренд 3</label><br>
+						<button class="chosse-brand">Выбрать</button>
+					</form>
+				</div> <!-- end menu-categories -->
+			</div> <!-- end right-sidebar -->
+
+			<div class="goods-list clearfix">
+				<div class="product-box">
+					<a href="" class="tyre-brand">Goodyear</a><br>
+					<span class="tyre-model">Ultra Grip</span>
+					<div class="tyre-photo">
+						<img src="img/tyre-1.jpg" alt="tyre">
+					</div>
+					<span class="tyre-price">90.00 грн</span>	
+				</div>
+				<div class="product-box">
+					<a href="" class="tyre-brand">Nokian</a><br>
+					<span class="tyre-model">Hakkapeliitta R</span>
+					<div class="tyre-photo">
+						<img src="img/tyre-2.jpg" alt="tyre">
+					</div>
+					<span class="tyre-price">115.00 грн</span>
+				</div>
+				<div class="product-box">
+					<a href="" class="tyre-brand">Hankook</a><br>
+					<span class="tyre-model">K 708 155/65 R14</span>
+					<div class="tyre-photo">
+						<img src="img/tyre-3.jpg" alt="tyre">
+					</div>
+					<span class="tyre-price">393.00 грн</span>
+				</div>
+				<div class="product-box">
+					<a href="" class="tyre-brand">Goodyear</a><br>
+					<span class="tyre-model">Ultra Grip</span>
+					<div class="tyre-photo">
+						<img src="img/tyre-1.jpg" alt="tyre">
+					</div>
+					<span class="tyre-price">90.00 грн</span>	
+				</div>
+				<div class="product-box">
+					<a href="" class="tyre-brand">Nokian</a><br>
+					<span class="tyre-model">Hakkapeliitta R</span>
+					<div class="tyre-photo">
+						<img src="img/tyre-2.jpg" alt="tyre">
+					</div>
+					<span class="tyre-price">115.00 грн</span>
+				</div>
+				<div class="product-box">
+					<a href="" class="tyre-brand">Hankook</a><br>
+					<span class="tyre-model">K 708 155/65 R14</span>
+					<div class="tyre-photo">
+						<img src="img/tyre-3.jpg" alt="tyre">
+					</div>
+					<span class="tyre-price">393.00 грн</span>
+				</div>
+				<div class="product-box">
+					<a href="" class="tyre-brand">Goodyear</a><br>
+					<span class="tyre-model">Ultra Grip</span>
+					<div class="tyre-photo">
+						<img src="img/tyre-1.jpg" alt="tyre">
+					</div>
+					<span class="tyre-price">90.00 грн</span>	
+				</div>
+				<div class="product-box">
+					<a href="" class="tyre-brand">Nokian</a><br>
+					<span class="tyre-model">Hakkapeliitta R</span>
+					<div class="tyre-photo">
+						<img src="img/tyre-2.jpg" alt="tyre">
+					</div>
+					<span class="tyre-price">115.00 грн</span>
+				</div>
+				<div class="product-box">
+					<a href="" class="tyre-brand">Hankook</a><br>
+					<span class="tyre-model">K 708 155/65 R14</span>
+					<div class="tyre-photo">
+						<img src="img/tyre-3.jpg" alt="tyre">
+					</div>
+					<span class="tyre-price">393.00 грн</span>
+				</div>
+			</div>
+		</div> <!-- end content -->
+
+		<div class="brand-logo">
+			<img src="img/brand-logo.png" alt="brand">
+		</div>
+		<div class="footer">
+			<div class="center-box">
+				<ul class="bottom-menu clearfix">
+					<li><a href="#">О компании</a></li>
+					<li><a href="#">Доставка</a></li>
+					<li><a href="#">Статьи</a></li>
+					<li><a href="#">Контакты</a></li>
+				</ul>
+			</div>
+			<p class="copyright">Создание сайта © Global Vision</p>
+		</div class="footer"> <!-- end footer -->
+	</div> <!-- end wrapper -->
+	<script type="text/javascript" src="js/jQuery.js"></script>
+	<script type="text/javascript" src="js/script.js"></script>
+</body>
+</html>
