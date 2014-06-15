@@ -3,21 +3,6 @@
 <head>
 	<!-- <base target="_blank"/> Открывать страницы в новом окне -->
 	<link rel="stylesheet" href="css/main.css">
-	<script type="text/javascript" src="js/jQuery.js"></script>
-	<script type="text/javascript" src="js/carousel.js"></script>
-	<script type="text/javascript" src="js/jcarousellite.js"></script>
-	<script type="text/javascript" src="js/mousewheel.js"></script>
-	<script type="text/javascript" src="js/tiny.js"></script>
-	<script type="text/javascript">
-		jQuery(document).ready(function(){
-			jQuery('#slider-code').tinycarousel({ 
-				pager: true,
-				interval: true,
-				intervaltime: 3000,
-				duration: 1000
-			});
-		});
-	</script>
 	<meta charset="UTF-8">
 	<title>You Bike</title>
 </head>
@@ -35,7 +20,7 @@
 				<div class="enter-on-site"> 
 					<span class="minhas">Minhas Ofertas</span>
 					<span class="ola">Ola! <a href="">Entrar</a> ou <a href="">Cadastre-se</a></span>
-					<form action="#" method="GET" class="enter">
+					<form action="" method="GET" class="enter">
 						<input type="text" placeholder="e-mail" name="name">
 						<input type="submit" name="sign" class="button" value="Entrar">
 						<input type="password" name="name" placeholder="password">
@@ -48,7 +33,7 @@
 					<img src="img/logo.png" alt="logo">
 				</a>
 			</div>
-			<form action="#" method="GET" id="search-form">
+			<form action="" method="GET" id="search-form">
 				<input type="search" name="search" placeholder="Buscar">
 				<!-- <input type="submit" name="button1" value="Todo site"> -->
 				<ul class="block">
@@ -295,5 +280,21 @@
 			<div class="foot"></div> <!-- Проблемы с врапером -->
 		</footer>
 	</div> <!-- end wrapper -->
+
+	<script type="text/javascript" src="js/jQuery.js"></script>
+	<script type="text/javascript" src="js/carousel.js"></script>
+	<script type="text/javascript" src="js/jcarousellite.js"></script>
+	<script type="text/javascript" src="js/mousewheel.js"></script>
+	<script type="text/javascript" src="js/tiny.js"></script>
+	<script type="text/javascript">
+		jQuery(document).ready(function(){
+			jQuery('#slider-code').tinycarousel({ 
+				pager: true,
+				interval: true,
+				intervaltime: 3000,
+				duration: 1000
+			});
+		});
+	</script>
 </body>
 </html>
